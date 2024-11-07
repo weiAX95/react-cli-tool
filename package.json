@@ -1,0 +1,19 @@
+{
+  "name": "react-cli-tool",
+  "version": "1.0.0",
+  "description": "CLI tool for creating React projects",
+  "main": "bin/cli.js",
+  "bin": {
+    "create-react-cli": "./bin/cli.js"
+  },
+  "scripts": {
+    "create": "node ./bin/cli.js create"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.1.0",
+    "fs-extra": "^11.2.0",
+    "inquirer": "^8.2.6",
+    "ora": "^5.4.1"
+  }
+}
